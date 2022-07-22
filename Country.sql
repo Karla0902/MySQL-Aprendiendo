@@ -1,22 +1,6 @@
 USE world;
 DESCRIBE country;
-/*
-Code	char(3)
-Name	char(52)
-Continent	enum('Asia','Europe','North America','Africa','Oceania','Antarctica','South America')
-Region	char(26)
-SurfaceArea	float(10,2)
-IndepYear	smallint
-Population	int
-LifeExpectancy	float(3,1)
-GNP	float(10,2)
-GNPOld	float(10,2)
-LocalName	char(45)
-GovernmentForm	char(45)
-HeadOfState	char(60)
-Capital	int
-Code2	char(2)
-*/
+
 -- crud- >read
 	SELECT 
 		Code,
