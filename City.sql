@@ -1,12 +1,7 @@
 DESCRIBE city;
 -- esto es un comentario
-/*
-ID	int
-Name	char(35)
-CountryCode	char(3)
-District	char(20)
-Population	int
-*/
+
+
 -- crud - > read (lee el contenido de la tabla / orden by orden el contenido )
 SELECT ID,Name,CountryCode,District,Population FROM city ORDER BY ID DESC;
 Call city_GetAll();
